@@ -70,14 +70,14 @@ I strive to create a classroom environment that is welcoming of students with va
 
 This course will be taught entirely in the R programming language. R is widely used by researchers in ecology and evolution, has a diverse ecosystem of packages that provide specialized functionality, and is free. R can be downloaded for all major operating systems [here](https://cran.rstudio.com/) (choose the "precompiled binary distribution" option). In addition, we'll be using the RStudio software to work more easily with R. Essentially, RStudio spruces up the basic R software with a number of convenient features. Many users never interact with R except through RStudio. The version of RStudio intended for personal use (RStudio Desktop) is also free. Install that software [here](https://www.rstudio.com/products/rstudio/download/) (scroll down to "All Installers" list and select your operating system). 
 
-While not required, having a personal computer for this class will be a benefit given that R coding will be a major focus of teaching and all homework assignments will require access to a computer. If you have one, I encourage you to bring your personal computers to lecture and follow along with the class material on your own machine. If you exercise this option, do not be a distraction to other students by using your computer for anything not course-related during class time. **Please attempt to install R and Rstudio on your personal computers prior to the start of the course, but if you have trouble, we will be able to help you with software installation during the first week of class.** 
+R coding will be a major focus of teaching and all homework assignments will require access to a computer. I encourage you to bring your personal computers to lecture and follow along with the class material on your own machine. If you exercise this option, do not be a distraction to other students by using your computer for anything not course-related during class time. **Please attempt to install R and Rstudio on your personal computers prior to the start of the course, but if you have trouble, we will be able to help you with software installation during the first week of class.** 
 
-Students who do not have access to a personal computer or who are unable to install the required software and packages can take advantage of [RStudio Cloud](https://rstudio.cloud/plans/premium?discount=academic), which provides access to R and RStudio on any computer with internet access. Unfortunately, the free version will not have enough time or computing power to meet our needs, though the premium version is available at a steep 75% discount for academic use, which comes to $25/month for the duration of use. Another option is Codio, which is freely available and will be added to Canvas, though it is not as easy to use. Please alert your TA if you need to make use of either option. 
+Students who do not have access to a personal computer or who are unable to install the required software and packages can take advantage of [RStudio Cloud](https://rstudio.cloud/plans/premium?discount=academic), which provides access to R and RStudio on any computer with internet access. I created a workspace for this course on RStudio Cloud that is set up with all required packages. You will have up to 25 hours per month of usage available free of charge. Instructions for how to access this workspace will be shared via email. 
 
 
 # Course GitHub
 
-In addition to using the Canvas site, I will maintain a [GitHub repository for this course](https://github.com/steffenfoerster/stats_eco_evo_fall2020). This will allow others to freely access materials and also provides an opportunity for you to become familiar with git and GitHub, if you're so inclined. 
+In addition to using the Canvas site, I will maintain a [GitHub repository for this course](https://github.com/steffenfoerster/stats_eco_evo_2021). This will allow others to freely access materials and also provides an opportunity for you to become familiar with git and GitHub, if you're so inclined. 
 
 
 \newpage
@@ -100,6 +100,7 @@ colnames(table) <- c("**Assignment**", "**UN3005**", "**GR5005**")
 
 kable(table, align = "c")
 ```
+
 
 ## Grading Scale
 
@@ -126,6 +127,7 @@ colnames(table) <- c("**Percentage**", "**Grade**")
 kable(table, align = "c")
 ```
 
+
 ## Grading Policies
 
 In this course, **late assignments will receive no credit.** However, before final grades are calculated, **I will drop your lowest homework grade.** This is intended to provide all students with protection against any circumstances that might affect the timeliness or quality of their work. Your lab grade will be determined by your weekly attendance and engagement with the material. Similar to my homework grading policy, **I will grant all students one lab absence for the semester without penalty.**
@@ -138,13 +140,13 @@ For homework assignments, I encourage you to discuss the problem sets and potent
 \newpage
 # Course Schedule
 
-## Week 01 (Sep 14) - Introduction to R and RStudio
+## Week 01 (Sep 13) - Introduction to R and RStudio
 
 **Required reading:**  
 
 - *Statistical Rethinking*: Preface, Chapter 1
 
-## Week 02 (Sep 21) - Data Cleaning and More Advanced R
+## Week 02 (Sep 20) - Data Cleaning and More Advanced R
 
 **Required reading:**
 
@@ -152,7 +154,7 @@ For homework assignments, I encourage you to discuss the problem sets and potent
 
 - "Introduction to dplyr." [Article link](https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html)
 
-## Week 03 (Sep 28) - Data Visualization
+## Week 03 (Sep 27) - Data Visualization
 
 **Required reading:**  
 
@@ -162,7 +164,7 @@ For homework assignments, I encourage you to discuss the problem sets and potent
 
 - Martin, L. J. 2015. Mathematizing nature’s messiness: graphical representations of variation in ecology, 1930-present.  
 
-## Week 04 (Oct 05) - Bayesian Basics
+## Week 04 (Oct 04) - Bayesian Basics
 
 **Required reading:**  
 
@@ -174,15 +176,15 @@ For homework assignments, I encourage you to discuss the problem sets and potent
 
 - McElreath, R. 2011. "The tyranny of Fisher." 
 
-## Week 05 (Oct 12) - Statistical Distributions and Summary Statistics
+## Week 05 (Oct 11) - Statistical Distributions and Summary Statistics
 
 **Required reading:**  
 
 - *Statistical Rethinking*: Chapter 3  
 
-**EEEB GR5005 Students: Research project prospectus due Oct 22**
+**EEEB GR5005 Students: Research project prospectus due Oct 21**
 
-## Week 06 (Oct 19) - Gaussian Regression Models
+## Week 06 (Oct 18) - Gaussian Regression Models
 
 **Required reading:**  
 
@@ -190,26 +192,26 @@ For homework assignments, I encourage you to discuss the problem sets and potent
 
 - *Statistical Rethinking*: Chapter 4  
 
-## Week 07 (Oct 26) - Regression, continued
+## Week 07 (Oct 25) - Regression, continued
 
 **Required reading:**  
 
 - *Statistical Rethinking*: Chapter 4  
 
 
-## Week 08 (Nov 2) - ACADEMIC HOLIDAY - NO LECTURE
+## Week 08 (Nov 1) - ACADEMIC HOLIDAY - NO LECTURE
 
-**EEEB GR5005 Students: Research project rough drafts due Nov 12**
+**EEEB GR5005 Students: Research project rough drafts due Nov 11**
 
 
-## Week 09 (Nov 9) - Multiple Regression
+## Week 09 (Nov 8) - Multiple Regression
 
 **Required reading:**  
 
 - *Statistical Rethinking*: Chapter 5
 
 
-## Week 10 (Nov 16) - Model selection
+## Week 10 (Nov 15) - Model selection
 
 **Required reading:**  
 
@@ -224,14 +226,14 @@ For homework assignments, I encourage you to discuss the problem sets and potent
 - McGill, B. 2015. "Why AIC appeals to ecologist's lowest instincts." *Dynamic Ecology*. [Article link](https://dynamicecology.wordpress.com/2015/05/21/why-aic-appeals-to-ecologists-lowest-instincts/) (And be sure to see the many interesting comments.)
 
 
-## Week 11 (Nov 23) - Interactions
+## Week 11 (Nov 22) - Interactions
 
 **Required reading:**  
 
 - *Statistical Rethinking*: Chapter 8
 
 
-## Week 12 (Nov 30) - Link Functions and Poisson Regression
+## Week 12 (Nov 29) - Link Functions and Poisson Regression
 
 **Required reading:**  
 
@@ -243,7 +245,7 @@ For homework assignments, I encourage you to discuss the problem sets and potent
 
 
 
-## Week 13 (Dec 7) - Binomial Regression
+## Week 13 (Dec 6) - Binomial Regression
 
 **Required reading:**  
 
@@ -251,7 +253,7 @@ For homework assignments, I encourage you to discuss the problem sets and potent
 
 
 
-## Week 14 (Dec 14) - Introduction to Multilevel Modeling
+## Week 14 (Dec 13) - Introduction to Multilevel Modeling
 
 **Required reading:**  
 
@@ -259,7 +261,7 @@ For homework assignments, I encourage you to discuss the problem sets and potent
 
 - *Statistical Rethinking*: Chapter 13
 
-**EEEB GR5005 Students: Research projects due Dec 17**
+**EEEB GR5005 Students: Research projects due Dec 16**
 
 
 
