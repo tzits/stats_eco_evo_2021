@@ -25,7 +25,9 @@ A primary difference between R Markdown files and regular R scripts is that in R
 To get familiar with coding within R Markdown files, first, add the numbers 3 and 7 using R code in the chunk below. Next, put a new line in the chunk that multiplies the numbers 5 and 6. Make sure you can get R output running the code line by line and as an entire chunk. 
 
 ```{r}
+3 + 7
 
+5 * 6
 
 ```
 
